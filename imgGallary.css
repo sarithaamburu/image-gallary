@@ -1,0 +1,23 @@
+img{
+    height: 150px;
+    width: 200px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    transform: rotate(20deg);
+    transition: all 3s;
+    box-shadow: 10px 10px 5px gray;
+   
+}
+img:hover{
+    transform: scale(1.1);
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+h1{
+    text-align: center;
+    color: red;
+    font-family: sans-serif;
+    
+}
